@@ -212,9 +212,6 @@ nba.playerAssistOverTurnovers = async function(name, season) {
     return (ast/tov);
 }
 
-var teamDict = new Object();
-
-
 nba.teamAbbreviation = function(id) {return this.teamInfo.call(id, 'abbreviation');}
 nba.teamCity = function(id) {return this.teamInfo.call(id, 'city');}
 nba.teamConference = function(id) {return this.teamInfo.call(id, 'conference');}
